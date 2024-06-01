@@ -1,0 +1,21 @@
+digraph G {
+
+	n83 [id = 83 label = "0" ];
+	n83 -> o103 [arrowhead = vee];
+	n97 [id = 97 label = "0" ];
+	n97 -> o100 [arrowhead = vee];
+	n98 [id = 98 label = "1" ];
+	n98 -> o99 [arrowhead = vee];
+	o99 [id = 99 xlabel = "" shape = point];
+	o100 [id = 100 xlabel = "" shape = point];
+	o103 [id = 103 xlabel = "" shape = point];
+	o106 [id = 106 xlabel = "" shape = point];
+	o109 [id = 109 xlabel = "" shape = point];
+	n135 [id = 135 label = "1" ];
+	n135 -> o109 [arrowhead = vee];
+	n148 [id = 148 label = "" ];
+	n153 [id = 153 label = "" ];
+	n165 [id = 165 label = "1" ];
+	n165 -> o106 [arrowhead = vee];
+	
+}
